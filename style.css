@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat");
+
+body {
+  background-image: url('rose.jpeg'); /* Floral background image */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.text {
+    font-family: 'Caveat', cursive;
+    color: #a7e713;
+    align-items: baseline;
+     }
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.Picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content within each Picture */
+  justify-content: center;
+  margin-bottom: 20px; /* Space between each frame */
+  border: 5px solid #fff;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  user-select: none;
+  cursor: pointer;
+}
+
+.Picture img,
+.Picture video {
+  width: 300px;
+  border-radius: 3px;
+}
+
+.Picture-note {
+  font-family: 'Caveat', cursive;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.Network img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
